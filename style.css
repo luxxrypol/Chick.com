@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 25, 0, 0.6); /* Semi-transparent red (adjust alpha for more/less transparency) */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 50px; /* Adjust as needed */
+    margin-right: 20px; /* Space between logo and title */
+    vertical-align: middle; /* Aligns the logo with the text */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+    font-weight: bold;
+    background-color: #f1ef69; /* Button color */
+    padding: 10px 15px; /* Padding for button effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+main {
+    padding: 20px;
+}
+
+.product, .call-to-action {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #e74c3c;
+}
+
+.button {
+    display: inline-block;
+    background-color: #e74c3c;
+   
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: white;
+}

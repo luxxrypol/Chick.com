@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgg.jpg'); /* Ensure this path is correct */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    color: #333;
+}
+
+header {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #e74c3c; /* Button color */
+    padding: 10px 15px; /* Padding for button effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+main {
+    padding: 20px;
+}
+
+.price-list {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.product-item {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.product-item strong {
+    flex: 1; /* Allow the strong element to take available space */
+}
+
+.product-image {
+    margin-left: 10px; /* Space between text and image */
+    border-radius: 5px; /* Rounded corners for images */
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: white;
+}
